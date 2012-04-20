@@ -9,6 +9,7 @@ To port RailCraft, you need the following:
   - Valid [vanilla to bukkit mappings] for the Minecraft version you're porting on.
   - [ObjectWeb's ASM toolkit]
   - A vanilla minecraft_server.jar, obviously the version you're porting on.
+
 Step 1: Applying the SRG mapping
 --------------------------------
 To apply the SRG mapping, we use ApplySrg.jar. Apart from which mappings to use, we also need it to build an inheritance tree to help with the mapping, and because sometimes classes expect to be in the same package as Minecraft, we need to specify the package for orphan classes too:
